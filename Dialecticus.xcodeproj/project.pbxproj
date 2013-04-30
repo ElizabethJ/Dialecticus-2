@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0E7896A1730386F00139417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E789691730386F00139417 /* UIKit.framework */; };
+		B0E7896C1730386F00139417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E7896B1730386F00139417 /* Foundation.framework */; };
+		B0E7896E1730386F00139417 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E7896D1730386F00139417 /* CoreGraphics.framework */; };
+		B0E789741730386F00139417 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0E789721730386F00139417 /* InfoPlist.strings */; };
+		B0E789761730386F00139417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E789751730386F00139417 /* main.m */; };
+		B0E7897A1730386F00139417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E789791730386F00139417 /* AppDelegate.m */; };
+		B0E7897C1730386F00139417 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E7897B1730386F00139417 /* Default.png */; };
+		B0E7897E1730386F00139417 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E7897D1730386F00139417 /* Default@2x.png */; };
+		B0E789801730386F00139417 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E7897F1730386F00139417 /* Default-568h@2x.png */; };
+		B0E789831730386F00139417 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E789811730386F00139417 /* MainStoryboard_iPhone.storyboard */; };
+		B0E789861730386F00139417 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E789841730386F00139417 /* MainStoryboard_iPad.storyboard */; };
+		B0E789891730386F00139417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E789881730386F00139417 /* ViewController.m */; };
+		B0E789911730386F00139417 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E789901730386F00139417 /* SenTestingKit.framework */; };
+		B0E789921730386F00139417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E789691730386F00139417 /* UIKit.framework */; };
+		B0E789931730386F00139417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E7896B1730386F00139417 /* Foundation.framework */; };
+		B0E7899B1730386F00139417 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0E789991730386F00139417 /* InfoPlist.strings */; };
+		B0E7899E1730386F00139417 /* DialecticusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E7899D1730386F00139417 /* DialecticusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0E789941730386F00139417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0E7895C1730386F00139417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0E789641730386F00139417;
+			remoteInfo = Dialecticus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0E789651730386F00139417 /* Dialecticus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dialecticus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E789691730386F00139417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0E7896B1730386F00139417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0E7896D1730386F00139417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0E789711730386F00139417 /* Dialecticus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dialecticus-Info.plist"; sourceTree = "<group>"; };
+		B0E789731730386F00139417 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0E789751730386F00139417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0E789771730386F00139417 /* Dialecticus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dialecticus-Prefix.pch"; sourceTree = "<group>"; };
+		B0E789781730386F00139417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0E789791730386F00139417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0E7897B1730386F00139417 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B0E7897D1730386F00139417 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B0E7897F1730386F00139417 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B0E789821730386F00139417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B0E789851730386F00139417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B0E789871730386F00139417 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0E789881730386F00139417 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0E7898F1730386F00139417 /* DialecticusTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialecticusTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E789901730386F00139417 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B0E789981730386F00139417 /* DialecticusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DialecticusTests-Info.plist"; sourceTree = "<group>"; };
+		B0E7899A1730386F00139417 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0E7899C1730386F00139417 /* DialecticusTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialecticusTests.h; sourceTree = "<group>"; };
+		B0E7899D1730386F00139417 /* DialecticusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialecticusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0E789621730386F00139417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E7896A1730386F00139417 /* UIKit.framework in Frameworks */,
+				B0E7896C1730386F00139417 /* Foundation.framework in Frameworks */,
+				B0E7896E1730386F00139417 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E7898B1730386F00139417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E789911730386F00139417 /* SenTestingKit.framework in Frameworks */,
+				B0E789921730386F00139417 /* UIKit.framework in Frameworks */,
+				B0E789931730386F00139417 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0E7895A1730386F00139417 = {
+			isa = PBXGroup;
+			children = (
+				B0E7896F1730386F00139417 /* Dialecticus */,
+				B0E789961730386F00139417 /* DialecticusTests */,
+				B0E789681730386F00139417 /* Frameworks */,
+				B0E789661730386F00139417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0E789661730386F00139417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0E789651730386F00139417 /* Dialecticus.app */,
+				B0E7898F1730386F00139417 /* DialecticusTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0E789681730386F00139417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E789691730386F00139417 /* UIKit.framework */,
+				B0E7896B1730386F00139417 /* Foundation.framework */,
+				B0E7896D1730386F00139417 /* CoreGraphics.framework */,
+				B0E789901730386F00139417 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0E7896F1730386F00139417 /* Dialecticus */ = {
+			isa = PBXGroup;
+			children = (
+				B0E789781730386F00139417 /* AppDelegate.h */,
+				B0E789791730386F00139417 /* AppDelegate.m */,
+				B0E789811730386F00139417 /* MainStoryboard_iPhone.storyboard */,
+				B0E789841730386F00139417 /* MainStoryboard_iPad.storyboard */,
+				B0E789871730386F00139417 /* ViewController.h */,
+				B0E789881730386F00139417 /* ViewController.m */,
+				B0E789701730386F00139417 /* Supporting Files */,
+			);
+			path = Dialecticus;
+			sourceTree = "<group>";
+		};
+		B0E789701730386F00139417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0E789711730386F00139417 /* Dialecticus-Info.plist */,
+				B0E789721730386F00139417 /* InfoPlist.strings */,
+				B0E789751730386F00139417 /* main.m */,
+				B0E789771730386F00139417 /* Dialecticus-Prefix.pch */,
+				B0E7897B1730386F00139417 /* Default.png */,
+				B0E7897D1730386F00139417 /* Default@2x.png */,
+				B0E7897F1730386F00139417 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0E789961730386F00139417 /* DialecticusTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0E7899C1730386F00139417 /* DialecticusTests.h */,
+				B0E7899D1730386F00139417 /* DialecticusTests.m */,
+				B0E789971730386F00139417 /* Supporting Files */,
+			);
+			path = DialecticusTests;
+			sourceTree = "<group>";
+		};
+		B0E789971730386F00139417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0E789981730386F00139417 /* DialecticusTests-Info.plist */,
+				B0E789991730386F00139417 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0E789641730386F00139417 /* Dialecticus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E789A11730386F00139417 /* Build configuration list for PBXNativeTarget "Dialecticus" */;
+			buildPhases = (
+				B0E789611730386F00139417 /* Sources */,
+				B0E789621730386F00139417 /* Frameworks */,
+				B0E789631730386F00139417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dialecticus;
+			productName = Dialecticus;
+			productReference = B0E789651730386F00139417 /* Dialecticus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0E7898E1730386F00139417 /* DialecticusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E789A41730386F00139417 /* Build configuration list for PBXNativeTarget "DialecticusTests" */;
+			buildPhases = (
+				B0E7898A1730386F00139417 /* Sources */,
+				B0E7898B1730386F00139417 /* Frameworks */,
+				B0E7898C1730386F00139417 /* Resources */,
+				B0E7898D1730386F00139417 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0E789951730386F00139417 /* PBXTargetDependency */,
+			);
+			name = DialecticusTests;
+			productName = DialecticusTests;
+			productReference = B0E7898F1730386F00139417 /* DialecticusTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0E7895C1730386F00139417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.smoochfairy;
+			};
+			buildConfigurationList = B0E7895F1730386F00139417 /* Build configuration list for PBXProject "Dialecticus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0E7895A1730386F00139417;
+			productRefGroup = B0E789661730386F00139417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0E789641730386F00139417 /* Dialecticus */,
+				B0E7898E1730386F00139417 /* DialecticusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0E789631730386F00139417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E789741730386F00139417 /* InfoPlist.strings in Resources */,
+				B0E7897C1730386F00139417 /* Default.png in Resources */,
+				B0E7897E1730386F00139417 /* Default@2x.png in Resources */,
+				B0E789801730386F00139417 /* Default-568h@2x.png in Resources */,
+				B0E789831730386F00139417 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B0E789861730386F00139417 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E7898C1730386F00139417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E7899B1730386F00139417 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0E7898D1730386F00139417 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0E789611730386F00139417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E789761730386F00139417 /* main.m in Sources */,
+				B0E7897A1730386F00139417 /* AppDelegate.m in Sources */,
+				B0E789891730386F00139417 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E7898A1730386F00139417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E7899E1730386F00139417 /* DialecticusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0E789951730386F00139417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0E789641730386F00139417 /* Dialecticus */;
+			targetProxy = B0E789941730386F00139417 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0E789721730386F00139417 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E789731730386F00139417 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0E789811730386F00139417 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E789821730386F00139417 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B0E789841730386F00139417 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E789851730386F00139417 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B0E789991730386F00139417 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E7899A1730386F00139417 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0E7899F1730386F00139417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0E789A01730386F00139417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0E789A21730386F00139417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dialecticus/Dialecticus-Prefix.pch";
+				INFOPLIST_FILE = "Dialecticus/Dialecticus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0E789A31730386F00139417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dialecticus/Dialecticus-Prefix.pch";
+				INFOPLIST_FILE = "Dialecticus/Dialecticus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B0E789A51730386F00139417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dialecticus.app/Dialecticus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dialecticus/Dialecticus-Prefix.pch";
+				INFOPLIST_FILE = "DialecticusTests/DialecticusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B0E789A61730386F00139417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dialecticus.app/Dialecticus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dialecticus/Dialecticus-Prefix.pch";
+				INFOPLIST_FILE = "DialecticusTests/DialecticusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0E7895F1730386F00139417 /* Build configuration list for PBXProject "Dialecticus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E7899F1730386F00139417 /* Debug */,
+				B0E789A01730386F00139417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E789A11730386F00139417 /* Build configuration list for PBXNativeTarget "Dialecticus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E789A21730386F00139417 /* Debug */,
+				B0E789A31730386F00139417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0E789A41730386F00139417 /* Build configuration list for PBXNativeTarget "DialecticusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E789A51730386F00139417 /* Debug */,
+				B0E789A61730386F00139417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0E7895C1730386F00139417 /* Project object */;
+}
